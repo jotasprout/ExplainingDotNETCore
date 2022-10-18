@@ -1,7 +1,9 @@
 # SOA: Service Oriented Architecture
+
 it's a modularized way of designing your application- instead of your server solely existing for your UI app, we design the server to exist as a service that your UI can use, but also other machines can use. We build API's to share the data
 
 ## SOA Principles
+
 These are some of the guiding principles to help design your web services
 - Service Contract
     - Your service, should operate based on a standardized contract

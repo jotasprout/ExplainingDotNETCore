@@ -1,4 +1,5 @@
 # RESTful API
+
 REST: stands for REpresentational State Transfer
 API: Application Programming Interface
     - An interface for machines/programs/applications
@@ -6,11 +7,12 @@ API: Application Programming Interface
 REST is a design guideline to build an API that is easy to understand and use
 
 ## SOA: Service Oriented Architecture
+
 it's a more modularized way of designing your application- instead of your server solely existing for your UI app, we design the server to exist as a service that your UI can use, but also other machines can use. We build API's to share the data
 
 ## REST Guiding Principles
-- Client-Server
-    - it's a one way relationship
+
+- **Client-Server** is a one way relationship
 - Stateless
     - the server should not be storing client's state
 - Cacheable

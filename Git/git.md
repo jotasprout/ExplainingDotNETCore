@@ -5,12 +5,15 @@ Git is a version control system, to be more precise, it's a distributed version 
 Basically, git is a way for software devs to back up our work and collaborate with others
 
 ## source code
+
 Source code is your program
 
 ## Repository
+
 Git repository or repo is source code plus the history of changes you've made
 
 ## Basic Git Workflow
+
 1. make changes
 2. Add to the staging area using git add file-or-folder-name
 3. Commit with a meaningful message (For future you and your teammates) using git commit -m "message here"
@@ -38,15 +41,18 @@ git commit -m
 git push
 
 # Other Cool Stuff
+
 Your own free website in GitHub
 Self-Publishing a Book in GitHub
 Setting up personal and Private Keys
 
 ## Gitignore
+
 .gitignore file is a file telling git to ignore certain files/folders and do not track/add these to the repository.
 `dotnet new gitignore` at the root of your repository
 
 ## Branching
+
 - `git branch` : displays all your LOCAL repository branches
 - `git checkout branch-name`: Move to a different branch. Make sure you don't have any uncommitted changes
 - `git log`: gives you the commit history of the particular branch
@@ -57,10 +63,12 @@ Setting up personal and Private Keys
 - `git branch -d branch-name`: to delete branch
 
 ## Merge Conflict
+
 This is git's way of saying that there are changes occurred in the same location of the same file, and it needs human intervention/review to see what to keep.
 In order to resolve merge conflicts, review them and then choose which to keep, then add/commit.
 
 ## Oops, I committed and pushed stuff to remote repository I didn't mean to
+
 1. `git rm --cached the-file-you-want-it-gone`: This is remove the file from the git repository, while leaving the file in the file system.
 1a. `git rm -r --cached folder-you-want-it-gone` to remove folders from git repository
 2. Fix your gitignore
