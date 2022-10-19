@@ -1,10 +1,12 @@
 # Docker
+
 is a containerization platform (aka tool to containerize applications) that allows developers to package their application alongside with their dependencies in one convenient place!
 
 ## Containerization
 Is a way to provide *uniform environment* to run our app regardless of whichever machine we end up in.
 
 ## Terms
+
 - docker engine
     - is the daemon(the thing that sits in the background idly and wait for work) that actually runs all docker commands
 
